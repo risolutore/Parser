@@ -1,4 +1,4 @@
-from rdlexer import *
+from llone_parser import *
 
 '''
 Grammar used for this parser:
