@@ -1,7 +1,7 @@
-# LL-1-Parser
-LL(1) Recursive-Decent Parser in Python
+# Parser
+Recursive-Decent Parser in Python LL(1) and LL(k)
 
-Translation for Python from the book of Terence Parr 'Language Implementation Patterns' of the Pattern 3.
-This is a simple test implementing Lexer and Parser in Python by hand widouth other support software like Antlr or Yacc or other.
+Python implementation of ll(1) and ll(k) parser in Terence Parr's book 'Language Implementation Patterns'.
+This are simple test of Lexer and Parser coded in Python 3 from Java.
 
-In the test.py there all informations.
+In the test.py there are all usage informations.
