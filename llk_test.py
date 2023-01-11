@@ -5,7 +5,7 @@ Grammar used for this parser:
 
 list     : '[' elements ']'                          # list is composed of a LBRACK (some other elemets) an RBRACK
 elements : element (',' element)* | element=element  # elements are one or more element separated by COMMA or an element ASSIGNEMENT sign and other element  
-element  : NAME '=' NAME                             # Element is a NAME Assignemt of a NAME
+element  : NAME '=' NAME                             # Element is a NAME assignement of a NAME
          | NAME '=' NUMBER                           # element is a NUMBER assignement to a NAME 
          | NUMBER                                    # element is a NUMBER
          | list                                      # element is a list
