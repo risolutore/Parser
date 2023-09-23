@@ -22,12 +22,17 @@ Output:
 Parsing actions are translated in literal readable scripting lang
 '''
 
-
+# usage:
+# Sett the input list of data
 input_list = "[a=5, b=12, coord]"
 
+# create the lexer analizing the input list
 lexer = ListLexer(input_list)
+
+# create parser from the lexer 
 parser = ListParser(lexer)
 
+# display tokens infos
 parser.list()
 
 
